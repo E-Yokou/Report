@@ -556,6 +556,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.Name = "Report";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Report";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
