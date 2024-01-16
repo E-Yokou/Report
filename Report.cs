@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Word = Microsoft.Office.Interop.Word;
 using System.Windows.Forms;
 
@@ -27,7 +20,10 @@ namespace CreateReport
 
         private void BUT_add_product_Click(object sender, EventArgs e)
         {
+            string value1 = textBox_product.Text;
+            string value2 = textBox_count.Text;
 
+            dataGridView_product.Rows.Add(value1, value2);
         }
 
         private void BUT_create_report_Click(object sender, EventArgs e)
