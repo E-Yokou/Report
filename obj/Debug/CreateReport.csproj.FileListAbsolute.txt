@@ -1,0 +1,11 @@
+C:\CreateReport\bin\Debug\CreateReport.exe.config
+C:\CreateReport\bin\Debug\CreateReport.exe
+C:\CreateReport\bin\Debug\CreateReport.pdb
+C:\CreateReport\obj\Debug\CreateReport.csproj.AssemblyReference.cache
+C:\CreateReport\obj\Debug\CreateReport.csproj.SuggestedBindingRedirects.cache
+C:\CreateReport\obj\Debug\CreateReport.Form1.resources
+C:\CreateReport\obj\Debug\CreateReport.Properties.Resources.resources
+C:\CreateReport\obj\Debug\CreateReport.csproj.GenerateResource.cache
+C:\CreateReport\obj\Debug\CreateReport.csproj.CoreCompileInputs.cache
+C:\CreateReport\obj\Debug\CreateReport.exe
+C:\CreateReport\obj\Debug\CreateReport.pdb
