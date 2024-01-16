@@ -21,3 +21,14 @@ C:\Report\Report\obj\Debug\CreateReport.csproj.CoreCompileInputs.cache
 C:\Report\Report\obj\Debug\CreateReport.exe
 C:\Report\Report\obj\Debug\CreateReport.pdb
 C:\Report\Report\obj\Debug\CreateReport.csproj.ResolveComReference.cache
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.csproj.AssemblyReference.cache
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.csproj.ResolveComReference.cache
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.Report.resources
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.Properties.Resources.resources
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.csproj.GenerateResource.cache
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.csproj.CoreCompileInputs.cache
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.exe
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\obj\Debug\CreateReport.pdb
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\bin\Debug\CreateReport.exe.config
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\bin\Debug\CreateReport.exe
+C:\Users\eduar\OneDrive\Документы\GitHub\Report\bin\Debug\CreateReport.pdb
