@@ -164,7 +164,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(200, 20);
             this.textBox4.TabIndex = 21;
-            this.textBox4.Text = "Тест переодичность поставки";
+            this.textBox4.Text = "Тест периодичность поставки";
             // 
             // comboBox1
             // 

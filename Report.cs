@@ -37,6 +37,7 @@ namespace CreateReport
                 if (saveFileDialog1.FileName != "")
                 {
                     Word.Application wordApp = new Word.Application();
+
                     wordApp.Visible = false;
 
                     Word.Document doc = wordApp.Documents.Add();
@@ -45,17 +46,34 @@ namespace CreateReport
                     range.Text = $"Адрес заключения договора: {textBox1.Text}\n";
                     range.Text += $"Поставщик: {textBox2.Text}\n";
                     range.Text += $"Получатель: {textBox3.Text}\n";
-                    range.Text += $"Переодичность поставки: {textBox4.Text}\n";
+                    range.Text += $"Периодичность поставки: {textBox4.Text}\n";
                     range.Text += $"Дата поставки товара: {dateTimePicker1.Value.Day}.{dateTimePicker1.Value.Month}.{dateTimePicker1.Value.Year}\n";
 
                     range.Text += $"Вид транспорта: {comboBox1.SelectedText}\n";
 
                     range.Text += $"Права и обязанности сторон:\n {textBox_charge.Text}";
-                    range.Text += $"Права и обязанности сторон:\n {textBox_charge.Text}";
-                    range.Text += $"Права и обязанности сторон:\n {textBox_charge.Text}";
                     range.Text += $"Переход рисков, связанных с товаром:\n {textBox_risks.Text}";
                     range.Text += $"Ответственность сторон:\n {textBox_responsibility.Text}";
-                    range.Text += $"Срок и проядок выполнения договора:\n {textBox_contract_term.Text}";
+                    range.Text += $"Срок и прорядок выполнения договора:\n {textBox_contract_term.Text}";
+
+                    range.Text += $"------------------------\nТовары:\n";
+
+                    Word.Paragraph para;
+                    foreach (DataGridViewRow row in dataGridView_product.Rows)
+                    {
+                        para = doc.Content.Paragraphs.Add();
+                        foreach (DataGridViewCell cell in row.Cells)
+                        {
+                            // Товар
+                            string product = row.Cells[0].Value == null ? string.Empty : row.Cells[0].Value.ToString();
+                            para.Range.Text += "Товар: " + product + " ";
+
+                            // Количество
+                            string quantity = row.Cells[1].Value == null ? string.Empty : row.Cells[1].Value.ToString();
+                            para.Range.Text += "Количество: " + quantity + " ";
+                        }
+                        para.Range.InsertParagraphAfter();
+                    }
 
                     doc.SaveAs2(saveFileDialog1.FileName);
                     doc.Close();
