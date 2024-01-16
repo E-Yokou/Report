@@ -9,3 +9,15 @@ C:\CreateReport\obj\Debug\CreateReport.csproj.GenerateResource.cache
 C:\CreateReport\obj\Debug\CreateReport.csproj.CoreCompileInputs.cache
 C:\CreateReport\obj\Debug\CreateReport.exe
 C:\CreateReport\obj\Debug\CreateReport.pdb
+C:\Report\Report\bin\Debug\CreateReport.exe.config
+C:\Report\Report\bin\Debug\CreateReport.exe
+C:\Report\Report\bin\Debug\CreateReport.pdb
+C:\Report\Report\obj\Debug\CreateReport.csproj.AssemblyReference.cache
+C:\Report\Report\obj\Debug\CreateReport.csproj.SuggestedBindingRedirects.cache
+C:\Report\Report\obj\Debug\CreateReport.Report.resources
+C:\Report\Report\obj\Debug\CreateReport.Properties.Resources.resources
+C:\Report\Report\obj\Debug\CreateReport.csproj.GenerateResource.cache
+C:\Report\Report\obj\Debug\CreateReport.csproj.CoreCompileInputs.cache
+C:\Report\Report\obj\Debug\CreateReport.exe
+C:\Report\Report\obj\Debug\CreateReport.pdb
+C:\Report\Report\obj\Debug\CreateReport.csproj.ResolveComReference.cache
